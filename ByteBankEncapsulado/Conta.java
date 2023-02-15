@@ -50,7 +50,7 @@ public class Conta {
     public int getAgencia() {
         return this.agencia;
     }
-
+    
     public void setAgencia(int agencia) {
         this.agencia = agencia;
         if(agencia >= 455){
@@ -58,5 +58,13 @@ public class Conta {
         }else{
             System.out.println("Acesso inválido!");
         }
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+
+    public Cliente getTitular() {
+        return titular;
     }
 }
