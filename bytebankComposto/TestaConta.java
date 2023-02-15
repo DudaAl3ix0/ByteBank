@@ -13,6 +13,7 @@ public class TestaConta {
         
         contaDoCarlos.saca(400);
 
+        //associa o cliente carlos a contaDoCarlos
         contaDoCarlos.titular = carlos;
         System.out.println(contaDoCarlos.titular.nome);
     }
