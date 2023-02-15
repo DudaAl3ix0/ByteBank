@@ -6,6 +6,13 @@ public class Conta {
     private int numero;
     private Cliente titular;
 
+    public Conta(int agencia, int numero){
+        this.agencia = agencia;
+        this.numero = numero;
+        System.out.println("Estou criando uma conta " + numero);
+
+    }
+
     public void deposita(double valor){
         this.saldo += valor;
     }
@@ -40,10 +47,11 @@ public class Conta {
 
     public void setNumero(int numero){
         this.numero = numero;
-        if(numero >= 1500){
+        if(numero >= 0 ){
             System.out.println("Voce está acessando a conta com o número " + numero);
+            return;
         }else{
-            System.out.println("Error! número da conta inválido");
+            System.out.println("Error! número da conta está inválido");
         }
     }
 
@@ -53,8 +61,9 @@ public class Conta {
     
     public void setAgencia(int agencia) {
         this.agencia = agencia;
-        if(agencia >= 455){
+        if(agencia >= 0){
             System.out.println("Bem-vindo a agência " + agencia);
+            return;
         }else{
             System.out.println("Acesso inválido!");
         }
