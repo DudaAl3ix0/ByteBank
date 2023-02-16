@@ -1,7 +1,7 @@
 package bytebankComposto;
 
 public class Conta {
-    double saldo;
+    private double saldo;
     int agencia;
     int numero;
     Cliente titular;
@@ -23,7 +23,14 @@ public class Conta {
         if(this.saldo >= valor){
             this.saldo -= valor;
             destino.deposita(valor);
+            System.out.println("O valor foi transferido com sucesso!");
             return true;
-        }return false;
+        }else{
+            System.out.println("Não foi possível realizar a transferência.");
+            return false;}
     } 
+
+    public double informaSaldo(){
+        return this.saldo;
+    }
 }

@@ -9,7 +9,7 @@ public class TestaConta {
 
         Conta contaDoCarlos = new Conta();
         contaDoCarlos.deposita(450);
-        System.out.println(contaDoCarlos.saldo);
+        System.out.println(contaDoCarlos.informaSaldo());
         
         contaDoCarlos.saca(400);
 
