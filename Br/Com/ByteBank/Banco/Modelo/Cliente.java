@@ -1,4 +1,10 @@
-package Br.Com.ByteBank.Banco.Modelo;
+package br.com.ByteBank.Banco.Modelo;
+
+/**
+ * Classe que representa um cliente no bytebank.
+ * @author Duda
+ * @version 0.1
+ */
 
 public class Cliente {
     private String nome;

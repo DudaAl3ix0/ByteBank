@@ -1,4 +1,4 @@
-package Br.Com.ByteBank.Banco.Teste;
+package br.com.ByteBank.Banco.Teste;
 
 public interface Tributavel {
     

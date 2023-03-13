@@ -1,8 +1,8 @@
-package Br.Com.ByteBank.Banco.Teste;
+package br.com.ByteBank.Banco.Teste;
 
-import Br.Com.ByteBank.Banco.Modelo.CalculaImposto;
-import Br.Com.ByteBank.Banco.Modelo.ContaCorrente;
-import Br.Com.ByteBank.Banco.Modelo.SeguroDeVida;
+import br.com.ByteBank.Banco.Modelo.CalculaImposto;
+import br.com.ByteBank.Banco.Modelo.ContaCorrente;
+import br.com.ByteBank.Banco.Modelo.SeguroDeVida;
 
 public class TesteTributavel {
     public static void main(String[] args) {

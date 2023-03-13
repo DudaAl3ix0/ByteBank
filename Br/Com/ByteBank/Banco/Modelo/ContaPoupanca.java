@@ -1,4 +1,4 @@
-package Br.Com.ByteBank.Banco.Modelo;
+package br.com.ByteBank.Banco.Modelo;
 
 
 

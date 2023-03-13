@@ -1,8 +1,8 @@
-package Br.Com.ByteBank.Banco.Teste;
+package br.com.ByteBank.Banco.Teste;
 
-import Br.Com.ByteBank.Banco.Modelo.ContaCorrente;
-import Br.Com.ByteBank.Banco.Modelo.ContaPoupanca;
-import Br.Com.ByteBank.Banco.Modelo.SaldoInsuficienteException;
+import br.com.ByteBank.Banco.Modelo.ContaCorrente;
+import br.com.ByteBank.Banco.Modelo.ContaPoupanca;
+import br.com.ByteBank.Banco.Modelo.SaldoInsuficienteException;
 
 public class TesteConta {
     public static void main(String[] args) {

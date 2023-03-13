@@ -1,6 +1,6 @@
-package Br.Com.ByteBank.Banco.Modelo;
+package br.com.ByteBank.Banco.Modelo;
 
-import Br.Com.ByteBank.Banco.Teste.Tributavel;
+import br.com.ByteBank.Banco.Teste.Tributavel;
 
 public class CalculaImposto {
     private double totalImposto;
