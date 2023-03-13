@@ -1,4 +1,6 @@
-package ByteBankHerdadoConta;
+package Br.Com.ByteBank.Banco.Modelo;
+
+import Br.Com.ByteBank.Banco.Teste.Tributavel;
 
 public class CalculaImposto {
     private double totalImposto;

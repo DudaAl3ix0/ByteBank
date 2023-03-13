@@ -1,4 +1,6 @@
-package ByteBankHerdadoConta;
+package Br.Com.ByteBank.Banco.Teste;
+
+import Br.Com.ByteBank.Banco.Modelo.ContaCorrente;
 
 public class TesteSaldoException {
     public static void main(String[] args) {

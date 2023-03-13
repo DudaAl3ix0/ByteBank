@@ -1,4 +1,6 @@
-package ByteBankHerdadoConta;
+package Br.Com.ByteBank.Banco.Modelo;
+
+
 
 public abstract class Conta {
     protected double saldo;
