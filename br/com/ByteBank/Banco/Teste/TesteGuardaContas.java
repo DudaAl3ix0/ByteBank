@@ -4,7 +4,7 @@ import br.com.ByteBank.Banco.Modelo.Conta;
 import br.com.ByteBank.Banco.Modelo.ContaCorrente;
 import br.com.ByteBank.Banco.Modelo.GuardaContas;
 
-public class TesteArrayContas {
+public class TesteGuardaContas {
     public static void main(String[] args) {
         GuardaContas guarda = new GuardaContas();
 
@@ -17,7 +17,7 @@ public class TesteArrayContas {
         int tamanho = guarda.getQuantidadeCriada();
         System.out.println(tamanho);
 
-        Conta ref = guarda.getReferencia(1);
-        System.out.println(ref);
+        Conta ref = (Conta) guarda.getReferencia(1);
+        System.out.println(ref.getAgencia());
     }
 }
