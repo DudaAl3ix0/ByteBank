@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import br.com.ByteBank.Banco.Modelo.Conta;
 import br.com.ByteBank.Banco.Modelo.ContaCorrente;
 
-public class Teste {
+public class TesteArrayList {
     public static void main(String[] args) {
         //Generics 
        ArrayList<Conta> lista = new ArrayList<Conta>();
