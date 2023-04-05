@@ -7,7 +7,10 @@ import br.com.ByteBank.Banco.Modelo.ContaCorrente;
 
 public class Teste {
     public static void main(String[] args) {
-       ArrayList lista = new ArrayList<>();
+        //Generics 
+       ArrayList<Conta> lista = new ArrayList<Conta>();
+
+       ArrayList<String> nomes = new ArrayList<String>();
 
        Conta cc = new ContaCorrente(41, 89);
        lista.add(cc);
@@ -17,7 +20,7 @@ public class Teste {
 
        System.out.println(lista.size());
 
-       Conta ref = (Conta)lista.get(0);
+       Conta ref = lista.get(0);
        System.out.println(ref.getNumero());
 
        lista.remove(0);
@@ -30,14 +33,14 @@ public class Teste {
         lista.add(cc4);
 
        for(int i = 0; i < lista.size(); i++){
-        Conta contas = (Conta) lista.get(i);
-        System.out.println(contas);
+        Object referencias =  lista.get(i);
+        System.out.println(referencias);
        }
 
        System.out.println("------------------");
 
-       for(Object oRef : lista){
-        System.out.println(oRef);
+       for(Conta conta : lista){
+        System.out.println(conta);
        }
     }
 }
