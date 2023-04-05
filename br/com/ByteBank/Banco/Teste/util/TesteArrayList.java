@@ -3,14 +3,15 @@ package br.com.ByteBank.Banco.Teste.util;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
 import br.com.ByteBank.Banco.Modelo.Conta;
 import br.com.ByteBank.Banco.Modelo.ContaCorrente;
 
 public class TesteArrayList {
     public static void main(String[] args) {
-        //Generics 
-       List<Conta> lista = new LinkedList<Conta>();
+        //Generics no ArrayList, Vector chamdo de thread safe
+       List<Conta> lista = new Vector<Conta>();
        
        Conta cc = new ContaCorrente(41, 89);
        lista.add(cc);
